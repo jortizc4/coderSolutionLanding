@@ -19,6 +19,6 @@ export const GlobalStyles = createGlobalStyle`
 }
 body {
   background-color: var(--LightBg);
-  padding: 0 4rem;
+  
 }
 `

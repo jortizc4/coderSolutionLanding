@@ -1,11 +1,14 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 4rem;
-
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  padding: 1.5rem 4rem;
   figure {
     cursor: pointer;
     display: flex;
@@ -14,6 +17,7 @@ export const Nav = styled.nav`
 
     img {
       width: 100%;
+
       max-width: 8rem;
       padding: 2rem 0;
     }
@@ -60,11 +64,33 @@ export const Contact = styled.div`
     box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
   }
 `;
-export const BannerContainer = styled.header`
+export const SectionContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem 4rem;
 
+  ${(props) =>
+    props.services &&
+    css`
+      
+    
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      
+      h2 {
+        font-size: 3rem;
+      }
+      
+      div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: 2rem 0;
+       
+      }
+    `}
 `;
 export const TextWrapper = styled.div`
   display: flex;
@@ -83,5 +109,20 @@ export const BannerImg = styled.figure`
   img {
     width: 100%;
     margin-left: 5rem;
+  }
+`;
+
+export const ServiceItemContainer = styled.figure`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 2rem;
+  img {
+    width: 5rem;
+    
+  }
+  :hover {
+    transform: scale(1.2);
   }
 `;

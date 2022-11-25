@@ -1,14 +1,15 @@
-import { NavBar } from './components/NavBar'
+import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner.jsx";
-import React from 'react'
-function App () {
+import { Services } from "./components/Services.jsx";
+import React from "react";
+function App() {
   return (
-      <>
-        <NavBar/>
-        <Banner/>
-      </>
-
-  )
+    <>
+      <NavBar />
+      <Banner />
+      <Services />
+    </>
+  );
 }
 
-export default App
+export default App;

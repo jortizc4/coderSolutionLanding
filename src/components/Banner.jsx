@@ -1,8 +1,8 @@
-import {BannerContainer, TextWrapper, BannerImg} from "./styles/styledComponents.js";
+import {SectionContainer, TextWrapper, BannerImg} from "./styles/styledComponents.js";
 import headerImg from '../assets/Data.svg'
 export const Banner = () => {
     return (
-        <BannerContainer>
+        <SectionContainer>
             <TextWrapper>
 
                     <h1>
@@ -22,6 +22,6 @@ export const Banner = () => {
             <BannerImg>
                 <img src={headerImg} alt=""/>
             </BannerImg>
-        </BannerContainer>
+        </SectionContainer>
     )
 }
