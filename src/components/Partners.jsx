@@ -4,7 +4,7 @@ import SalesforcePartner from "../assets/salesforce.svg"
 
 export const Partners = () => {
     return (
-        <SectionContainer partners>
+        <SectionContainer partners id='partners'>
 
 
             <TextWrapper>

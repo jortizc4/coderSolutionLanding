@@ -9,7 +9,7 @@ import SecurityImg from "../assets/data-analysis.gif";
 import StaffingImg from "../assets/staffing.svg";
 export const Services = () => {
   return (
-    <SectionContainer services>
+    <SectionContainer services id="services">
         <h2>Our services</h2>
 
         <div>

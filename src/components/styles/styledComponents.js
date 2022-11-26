@@ -13,6 +13,9 @@ export const Contact = styled.div`
   border-radius: 0.5rem;
   box-shadow: rgba(9, 30, 66, 0.25) 0 1px 1px, rgba(9, 30, 66, 0.13) 0 0 1px 1px;
 
+  a {
+    color: var(--Light);
+  }
   :hover {
     box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
   }
@@ -219,21 +222,22 @@ export const SectionContainer = styled.header`
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        margin: 2rem 0;
+        margin: 1rem 0;
       }
 
       @media (max-width: 465px) {
         flex-direction: column;
         h2 {
-          font-size: 2rem;
+          font-size: 1.8rem;
+        }
+        div {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(4, 1fr);
+          margin: 0;
         }
       }
-      div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        margin: 0;
-      }
+     
     `}
 
   ${(props) =>
@@ -265,6 +269,7 @@ export const SectionContainer = styled.header`
         width: 100%;
 
         figure {
+          margin-left: 0.5rem;
           :hover {
             transform: scale(1.1);
           }

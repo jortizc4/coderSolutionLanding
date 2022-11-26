@@ -31,7 +31,7 @@ export const ContactSection = () => {
   };
 
   return (
-    <SectionContainer contact>
+    <SectionContainer contact id="contact">
       <h2>Contact us!</h2>
 
       <p>
