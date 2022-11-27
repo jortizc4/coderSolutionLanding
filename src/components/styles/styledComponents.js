@@ -123,7 +123,6 @@ export const LogoContainer = styled.figure`
   justify-content: center;
 
   img {
-    
     width: 8rem;
     padding: 2rem 0;
   }
@@ -131,12 +130,13 @@ export const LogoContainer = styled.figure`
     props.footer &&
     css`
       flex-direction: column;
-
+      
       img {
         width: 12rem;
         padding: 0;
+        margin-left: -2.3rem;
       }
-      
+
       @media (max-width: 465px) {
         padding: 2rem 0;
       }
@@ -200,7 +200,7 @@ export const SectionContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 4rem;
+  padding: 3rem 4rem;
   background-color: #dfefff;
 
   @media (max-width: 465px) {
@@ -237,7 +237,6 @@ export const SectionContainer = styled.header`
           margin: 0;
         }
       }
-     
     `}
 
   ${(props) =>
@@ -315,9 +314,17 @@ export const TextWrapper = styled.div`
     font-size: 0.8rem;
 
     h1 {
-      margin:  0;
+      margin: 0;
     }
-    
+  }
+
+  ${(props) =>
+    props.footer &&
+    css`
+      width: 100%;
+      gap: 0.5rem;
+      text-align: justify;
+    `}
 `;
 export const BannerImg = styled.figure`
   width: 60%;

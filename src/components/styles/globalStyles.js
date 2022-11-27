@@ -23,6 +23,9 @@ export const GlobalStyles = createGlobalStyle`
     background-color: var(--LightBg);
 
   }
+  html {
+    scroll-behavior: smooth;
+  }
 
  
 `

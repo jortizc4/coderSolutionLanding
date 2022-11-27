@@ -1,10 +1,9 @@
 import {
   FooterLinks,
-  Menu,
   FooterContainer,
   IconContainer,
   LogoContainer,
-  Contact,
+  TextWrapper
 } from "./styles/styledComponents.js";
 import { SocialCards } from "./SocialCards.jsx";
 import FbIcon from "../assets/facebook.png";
@@ -15,10 +14,20 @@ export const Footer = () => {
   return (
     <FooterContainer>
       <LogoContainer footer id="footer">
-        <img src={Logo} alt="coders solution logo" />
+        <a href={`#`}>
+          <img src={Logo} alt="coders solution logo" />
+        </a>
 
-        <h4>Call us</h4>
-        <span>+1 4332323</span>
+<TextWrapper footer>
+  <h4>Call us</h4>
+  <span>+1 4332323</span>
+
+  <h4>Email</h4>
+  <a href='mailto:email@gm.com'>email@codersolution.com</a>
+</TextWrapper>
+
+
+
       </LogoContainer>
 
       <FooterLinks>

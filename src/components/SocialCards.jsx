@@ -5,7 +5,7 @@ export const SocialCards = ({ icon, user, link }) => {
 
         <img src={icon} alt={user} />
         <figcaption>
-            <a href={link}>
+            <a href={link} target='_blank'>
             {user}
             </a>
             </figcaption>
