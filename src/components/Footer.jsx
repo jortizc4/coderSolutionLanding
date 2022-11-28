@@ -20,10 +20,10 @@ export const Footer = () => {
 
 <TextWrapper footer>
   <h4>Call us</h4>
-  <span>+1 4332323</span>
+  <span>+52 5585344473</span>
 
   <h4>Email</h4>
-  <a href='mailto:email@gm.com'>email@codersolution.com</a>
+  <a href='mailto:contacto@coders-solution.com'>contacto@coders-solution.com</a>
 </TextWrapper>
 
 
