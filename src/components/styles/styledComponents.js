@@ -98,11 +98,11 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 4rem;
+  height: 6rem;
   position: fixed;
   overflow: hidden;
   width: 100%;
-  padding: 1.5rem 4rem;
+  padding: 2rem 4rem;
   background-color: var(--Light);
   z-index: 2;
   @media (max-width: 465px) {
@@ -123,8 +123,8 @@ export const LogoContainer = styled.figure`
   justify-content: center;
 
   img {
-    width: 8rem;
-    padding: 2rem 0;
+    width: 13rem;
+   margin-top: 1rem;
   }
   ${(props) =>
     props.footer &&
@@ -132,7 +132,7 @@ export const LogoContainer = styled.figure`
       flex-direction: column;
       
       img {
-        width: 12rem;
+       
         padding: 0;
         margin-left: -2.3rem;
       }
