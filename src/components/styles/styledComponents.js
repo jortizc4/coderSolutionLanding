@@ -200,7 +200,7 @@ export const SectionContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 4rem;
+  padding: 5rem 4rem;
   background-color: #dfefff;
 
   @media (max-width: 465px) {
