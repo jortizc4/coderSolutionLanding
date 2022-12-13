@@ -32,11 +32,10 @@ export const ContactSection = () => {
 
   return (
     <SectionContainer contact id="contact">
-      <h2>Contact us!</h2>
+      <h2>Contacto</h2>
 
       <p>
-        Let's get the conversation started. Tell us a bit about yourself, and
-        we'll be in touch soon
+        Cuéntanos mas acerca de tu proyecto para ponernos en contacto
       </p>
 
       <FormContainer>
@@ -47,11 +46,11 @@ export const ContactSection = () => {
         >
           {({ errors, touched }) => (
             <Form>
-              <label>Name:</label>
+              <label>Nombre:</label>
               <Field
                 type="text"
                 name="name"
-                placeholder="Name"
+                placeholder="Nombre"
                 className={errors.name && touched.name && "error"}
               />
               {errors.name && touched.name && (
@@ -71,11 +70,11 @@ export const ContactSection = () => {
                     <img src={errorImg} alt='error alert'/>
                     {errors.email}</ErrorMessage>
               )}
-              <label>Message:</label>
+              <label>Mensaje:</label>
               <Field
                 name="message"
                 as="textarea"
-                placeholder="message"
+                placeholder="mensaje"
                 className={errors.message && touched.message && "error"}
               />
               {errors.message && touched.message && (
@@ -84,7 +83,7 @@ export const ContactSection = () => {
                     {errors.message}</ErrorMessage>
               )}
               <Button as="button" type="submit">
-                Submit
+                Enviar
               </Button>
                 <ToastContainer />
             </Form>

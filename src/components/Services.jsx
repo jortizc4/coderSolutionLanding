@@ -10,17 +10,17 @@ import StaffingImg from "../assets/staffing.svg";
 export const Services = () => {
   return (
     <SectionContainer services id="services">
-        <h2>Our services</h2>
+        <h2>Servicios</h2>
 
         <div>
             <ServiceItem img={DataImg} service='Data Analytics'/>
             <ServiceItem img={TestingImg}  service='Testing'/>
-            <ServiceItem img={SalesforceImg}  service='Salesforce Consultancy'/>
-            <ServiceItem img={AwsImg} service='Aws Consultancy' />
-            <ServiceItem img={ConsultancyImg} service='Digital Transformation' />
-            <ServiceItem img={SecurityImg} service='Cyber-security' />
+            <ServiceItem img={SalesforceImg}  service='Consultoria Salesforce'/>
+            <ServiceItem img={AwsImg} service='Consultoria AWS' />
+            <ServiceItem img={ConsultancyImg} service='Transformacion Digital' />
+            <ServiceItem img={SecurityImg} service='Cyber-seguridad' />
             <ServiceItem/>
-            <ServiceItem img={StaffingImg} service='Staffing and Headhunting'/>
+            <ServiceItem img={StaffingImg} service='Staffing & Headhunting'/>
 
         </div>
 

@@ -19,27 +19,27 @@ export function NavBar() {
 
       <Menu>
         <li>
-          <a href={`#`}>Home</a>
+          <a href={`#`}>Inicio</a>
         </li>
         <li>
-          <a href={`#services`}>Services</a>
+          <a href={`#services`}>Servicios</a>
         </li>
         <li>
-          <a href={`#partners`}>Partners</a>
+          <a href={`#partners`}>Aliados</a>
         </li>
       </Menu>
       <Contact>
-        <a href={`#contact`}>Contact Us</a>
+        <a href={`#contact`}>Contacto</a>
       </Contact>
       <HamburguerMenu onClick={() => setShow(!show)}>
         <img src={MenuImg} alt="hamburguer menu" />
       </HamburguerMenu>
       {show && (
         <MobileMenu>
-          <li>Home</li>
-          <li>Services</li>
-          <li>Partners</li>
-          <li>Contact us</li>
+          <li>Inicio</li>
+          <li>Servicios</li>
+          <li>Aliados</li>
+          <li>Contacto</li>
         </MobileMenu>
       )}
     </Nav>

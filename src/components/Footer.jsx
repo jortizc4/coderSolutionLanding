@@ -19,7 +19,7 @@ export const Footer = () => {
         </a>
 
 <TextWrapper footer>
-  <h4>Call us</h4>
+  <h4>Llamanos</h4>
   <span>+52 5585344473</span>
 
   <h4>Email</h4>
@@ -32,21 +32,21 @@ export const Footer = () => {
 
       <FooterLinks>
         <li>
-          <a href={`#`}>Home</a>
+          <a href={`#`}>Inicio</a>
         </li>
         <li>
-          <a href={`#services`}>Services</a>
+          <a href={`#services`}>Servicios</a>
         </li>
         <li>
-          <a href={`#partners`}>Partners</a>
+          <a href={`#partners`}>Aliados</a>
         </li>
 
         <li>
-          <a href={`#contact`}>Contact Us</a>
+          <a href={`#contact`}>Contacto</a>
         </li>
       </FooterLinks>
       <IconContainer>
-        <h4>Lets chat!</h4>
+        <h4>Escribenos!</h4>
         <div>
           <SocialCards icon={FbIcon} user="coder123" link="fb.com" />
           <SocialCards icon={LkIcon} user="coder123" link="fb.com" />

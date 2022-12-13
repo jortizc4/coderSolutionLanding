@@ -257,9 +257,13 @@ export const SectionContainer = styled.header`
     props.partners &&
     css`
       flex-wrap: wrap;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       background-color: #dfefff;
+      
+      h2 {
+        text-align: center;
+      }
 
       div {
         display: flex;

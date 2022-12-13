@@ -10,15 +10,11 @@ export const Banner = () => {
     <SectionContainer>
       <TextWrapper>
         <h1>
-          Our team of experts are dedicated to provide the best solutions to
-          your software requirements.
+          Somos expertos en transformación digital
         </h1>
 
         <p>
-          coders solution is a company dedicated to providing solutions and
-          software services through best of the experts software services. We
-          provide solutions that range from testing to AWS consultancy and our
-          Skill set includes various technologies according to your needs.
+          Coders Solution es una empresa mexicana dedicada a proveer servicios y soluciones de TI con un enfoque multi-industria. Utilizamos las últimas tecnologìas y metodologìas para llevar a cabo la transformación digital de tu negocio, te acompañamos desde la ideación, definición, diseño , implementación de software, testing, soporte y mantenimiento.to your needs.
         </p>
       </TextWrapper>
 
