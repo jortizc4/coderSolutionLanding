@@ -150,35 +150,10 @@ export const FormContainer = styled.div`
   padding: 1rem 2rem;
   margin: 2rem 0;
   border-radius: 0.5rem;
-  background: var(--Light);
+  background: var(--light);
   box-shadow: 20px 20px 60px var(--Light), -20px -20px 60px #ffffff;
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  div {
     width: 100%;
-
-    input,
-    textarea {
-      border: 1px solid var(--DarkText);
-      border-radius: 0.5rem;
-      resize: none;
-      padding: 1rem;
-      ::placeholder {
-        text-transform: capitalize;
-      }
-    }
-    input.error,
-    textarea.error {
-      border-color: #ff5e60;
-    }
-
-    input {
-      height: 2rem;
-    }
-    textarea {
-      height: 10rem;
-    }
   }
 `;
 export const ContactInfo = styled.div`
@@ -461,3 +436,8 @@ export const IconContainer = styled.div`
     }
   }
 `;
+
+export const HubspotFormContainer = styled.div`
+width: 100%;
+  \
+`
